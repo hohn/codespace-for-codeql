@@ -1,0 +1,20 @@
+* SQL injection example
+  This is an introductory codeql workshop for Java.
+  1. The problem and its source code are in [[./src]] along with a full description in
+     [[./src/README.org]].
+  2. The query is developed in [[./session/README.org]]
+
+* Setup
+  #+BEGIN_SRC sh :session shared :results output 
+    cd ~/local
+    git clone git@github.com:hohn/codeql-workshop-sql-injection-java.git
+    # or
+    git clone https://github.com/hohn/codeql-workshop-sql-injection-java.git
+
+    # CLI
+    cd ~/local/codeql-workshop-sql-injection-java
+    codeql pack install session
+  #+END_SRC
+
+  For VS Code, use
+  : command palette > install pack dependencies
