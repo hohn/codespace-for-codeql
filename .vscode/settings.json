@@ -1,0 +1,10 @@
+//
+{
+    "codeQL.runningQueries.memory": 16000,
+    "codeQL.runningTests.numberOfThreads": 4,
+    "codeQL.cli.executablePath": "/opt/codeql/codeql",
+    "codeQL.runningQueries.debug": true,
+
+    "codeQL.telemetry.enableTelemetry": false,
+    "codeQL.runningQueries.quickEvalCodelens": false
+}
