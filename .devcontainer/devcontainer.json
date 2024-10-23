@@ -4,9 +4,6 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
-	// "runArgs": [
-	// 	"--shm-size=1g"
-	// ],
 
 	"hostRequirements": {
 		"memory": "6gb"

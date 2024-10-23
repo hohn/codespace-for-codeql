@@ -1,4 +1,3 @@
-//
 {
     "codeQL.runningQueries.memory": 16000,
     "codeQL.runningTests.numberOfThreads": 4,
