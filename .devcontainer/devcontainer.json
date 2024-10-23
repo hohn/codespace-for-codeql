@@ -1,16 +1,16 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/python-3
 {
-	// "build": {
-	// 	"dockerfile": "Dockerfile"
-	// },
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
 	// "runArgs": [
 	// 	"--shm-size=1g"
 	// ],
 
-	// "hostRequirements": {
-	// 	"memory": "6gb"
-	// },
+	"hostRequirements": {
+		"memory": "6gb"
+	},
 
     // Configure tool-specific properties.
     "customizations": {
